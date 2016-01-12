@@ -6,7 +6,7 @@
   <show_grid>true</show_grid>
   <auto_zoom_to_fit_all>false</auto_zoom_to_fit_all>
   <scripts />
-  <height>600</height>
+  <height>800</height>
   <macros>
     <include_parent_macros>true</include_parent_macros>
   </macros>
@@ -21,7 +21,7 @@
   <background_color>
     <color red="240" green="240" blue="240" />
   </background_color>
-  <width>800</width>
+  <width>1200</width>
   <x>-1</x>
   <name></name>
   <grid_space>6</grid_space>
@@ -40,6 +40,64 @@
       <description></description>
     </action>
   </actions>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <line_width>0</line_width>
+    <horizontal_fill>true</horizontal_fill>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-591ccf7:1520b003cd7:-5950</wuid>
+    <transparent>false</transparent>
+    <pv_value />
+    <alpha>255</alpha>
+    <bg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </bg_gradient_color>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>56</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name></pv_name>
+    <gradient>false</gradient>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <anti_alias>true</anti_alias>
+    <line_style>0</line_style>
+    <widget_type>Rectangle</widget_type>
+    <fg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </fg_gradient_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="204" green="217" blue="217" />
+    </background_color>
+    <width>1202</width>
+    <x>0</x>
+    <name>Rectangle_14</name>
+    <y>9</y>
+    <fill_level>0.0</fill_level>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+    </font>
+    <line_color>
+      <color red="128" green="0" blue="255" />
+    </line_color>
+  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <border_style>0</border_style>
     <tooltip></tooltip>
@@ -49,10 +107,9 @@
     <wuid>-c7670c1:1510ebf0975:-7fc0</wuid>
     <transparent>true</transparent>
     <auto_size>false</auto_size>
-    <text>MOTOR TEST_BED
-AXIS 3 OPERATING</text>
+    <text>MOTOR TEST_BED AXIS 3 OPERATING</text>
     <scripts />
-    <height>82</height>
+    <height>49</height>
     <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -69,10 +126,10 @@ AXIS 3 OPERATING</text>
     <background_color>
       <color red="255" green="255" blue="255" />
     </background_color>
-    <width>199</width>
-    <x>-6</x>
+    <width>487</width>
+    <x>0</x>
     <name>Label_1</name>
-    <y>0</y>
+    <y>12</y>
     <foreground_color>
       <color red="12" green="216" blue="0" />
     </foreground_color>
@@ -115,9 +172,9 @@ $(pv_value)</tooltip>
       <color red="255" green="100" blue="100" />
     </background_color>
     <width>73</width>
-    <x>6</x>
+    <x>246</x>
     <name>Action Button</name>
-    <y>130</y>
+    <y>174</y>
     <style>0</style>
     <foreground_color>
       <color red="0" green="0" blue="0" />
@@ -183,9 +240,9 @@ $(pv_value)</tooltip>
       <color red="255" green="255" blue="255" />
     </background_color>
     <width>115</width>
-    <x>204</x>
+    <x>444</x>
     <name>Text Update</name>
-    <y>133</y>
+    <y>177</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -223,9 +280,9 @@ $(pv_value)</tooltip>
       <color red="255" green="255" blue="255" />
     </background_color>
     <width>115</width>
-    <x>90</x>
+    <x>330</x>
     <name>Label</name>
-    <y>114</y>
+    <y>158</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -268,9 +325,9 @@ $(pv_value)</tooltip>
       <color red="100" green="100" blue="255" />
     </background_color>
     <width>73</width>
-    <x>6</x>
+    <x>246</x>
     <name>Action Button_1</name>
-    <y>178</y>
+    <y>222</y>
     <style>0</style>
     <foreground_color>
       <color red="0" green="0" blue="0" />
@@ -336,9 +393,9 @@ $(pv_value)</tooltip>
       <color red="255" green="255" blue="255" />
     </background_color>
     <width>115</width>
-    <x>204</x>
+    <x>444</x>
     <name>Text Update_1</name>
-    <y>181</y>
+    <y>225</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -376,9 +433,9 @@ $(pv_value)</tooltip>
       <color red="255" green="255" blue="255" />
     </background_color>
     <width>115</width>
-    <x>90</x>
+    <x>330</x>
     <name>Label_2</name>
-    <y>162</y>
+    <y>206</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -428,9 +485,9 @@ $(pv_value)</tooltip>
       <color red="255" green="255" blue="255" />
     </background_color>
     <width>115</width>
-    <x>276</x>
+    <x>516</x>
     <name>Text Update_2</name>
-    <y>300</y>
+    <y>344</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -485,8 +542,8 @@ $(pv_value)</tooltip>
       <color red="255" green="255" blue="255" />
     </background_color>
     <width>100</width>
-    <x>98</x>
-    <y>132</y>
+    <x>338</x>
+    <y>176</y>
     <maximum>1.7976931348623157E308</maximum>
     <foreground_color>
       <color red="0" green="0" blue="0" />
@@ -525,9 +582,9 @@ $(pv_value)</tooltip>
       <color red="255" green="255" blue="255" />
     </background_color>
     <width>115</width>
-    <x>204</x>
+    <x>444</x>
     <name>Label_3</name>
-    <y>114</y>
+    <y>158</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -582,8 +639,8 @@ $(pv_value)</tooltip>
       <color red="255" green="255" blue="255" />
     </background_color>
     <width>100</width>
-    <x>98</x>
-    <y>180</y>
+    <x>338</x>
+    <y>224</y>
     <maximum>1.7976931348623157E308</maximum>
     <foreground_color>
       <color red="0" green="0" blue="0" />
@@ -622,15 +679,125 @@ $(pv_value)</tooltip>
       <color red="255" green="255" blue="255" />
     </background_color>
     <width>115</width>
-    <x>204</x>
+    <x>444</x>
     <name>Label_4</name>
-    <y>162</y>
+    <y>206</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <actions hook="false" hook_all="false" />
     <font>
       <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+    <toggle_button>false</toggle_button>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <push_action_index>0</push_action_index>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-591ccf7:1520b003cd7:-7d78</wuid>
+    <pv_value />
+    <text>VACUUM_OPI</text>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>43</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <image></image>
+    <visible>true</visible>
+    <pv_name></pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Action Button</widget_type>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="144" green="238" blue="144" />
+    </background_color>
+    <width>109</width>
+    <x>5</x>
+    <name>VACUUM_OPI</name>
+    <y>132</y>
+    <style>0</style>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false">
+      <action type="OPEN_DISPLAY">
+        <path>VACUUM_TEST.opi</path>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+        </macros>
+        <replace>1</replace>
+        <description></description>
+      </action>
+    </actions>
+    <font>
+      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+    <toggle_button>false</toggle_button>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <push_action_index>0</push_action_index>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-591ccf7:1520b003cd7:-5cd5</wuid>
+    <pv_value />
+    <text>INTRO_OPI</text>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>43</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <image></image>
+    <visible>true</visible>
+    <pv_name></pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Action Button</widget_type>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="144" green="238" blue="144" />
+    </background_color>
+    <width>108</width>
+    <x>5</x>
+    <name>INTRO_OPI_1</name>
+    <y>84</y>
+    <style>0</style>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false">
+      <action type="OPEN_DISPLAY">
+        <path>INTRO.opi</path>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+        </macros>
+        <replace>1</replace>
+        <description></description>
+      </action>
+    </actions>
+    <font>
+      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
     </font>
   </widget>
 </display>
