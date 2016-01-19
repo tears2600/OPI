@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="auto_complete_history">
+		<list key="PV">
+			<item value="ab:AUX2_READ"/>
+			<item value="ab:CNV2_READ"/>
+			<item value="ab:Torr_UNIT"/>
+			<item value="ab:Mbar_UNIT"/>
+		</list>
+	</section>
+</section>
